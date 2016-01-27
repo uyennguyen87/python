@@ -2,15 +2,14 @@
 # State Machine pattern using 'if' statements
 # to determine the next state
 import string
-import sys
-
-sys.path += ['../state', '../mouse']
-
-from Metaprogramming.pattern.state import State, StateMachine
-from Metaprogramming.pattern.state.mouse import MouseAction
 
 
 # A different subclass for each state:
+from metaprogramming.pattern.state.State import State
+from metaprogramming.pattern.state.StateMachine import StateMachine
+from metaprogramming.pattern.state.mouse.MouseAction import MouseAction
+
+
 class Waiting(State):
     def run(self):
         print 'Waiting: Broadcasting cheese smell'
@@ -55,7 +54,7 @@ class Holding(State):
 
 class MouseTrap(StateMachine):
     def __init__(self):
-        super(StateMachine, self).__init__(self, MouseTrap.waiting)
+        StateMachine.__init__(self, MouseTrap.waiting)
 
 
 # Static variable initialization
@@ -65,6 +64,11 @@ MouseTrap.trapping = Trapping()
 MouseTrap.holding = Holding()
 
 moves = map(string.strip,
-            open("../Mouse/MouseMoves.txt").readlines())
+            open("../mouse/MouseMoves.txt").readlines())
 
-MouseTrap().runAll(map(MouseAction, moves))
+print moves
+
+mouse_actions = map(MouseAction, moves)
+print mouse_actions
+
+MouseTrap().runAll(mouse_actions)
