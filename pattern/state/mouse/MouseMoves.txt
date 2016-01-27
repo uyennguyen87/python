@@ -1,6 +1,3 @@
-# state/mouse/MouseMoves.txt
-mouse appears
-mouse runs away
 mouse appears
 mouse enters trap
 mouse escapes
@@ -14,6 +11,3 @@ mouse appears
 mouse enters trap
 mouse trapped
 mouse removed
-
-
-
