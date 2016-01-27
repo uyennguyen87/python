@@ -3,11 +3,9 @@
 # to determine the next state
 import string
 
-
-# A different subclass for each state:
-from metaprogramming.pattern.state.State import State
-from metaprogramming.pattern.state.StateMachine import StateMachine
-from metaprogramming.pattern.state.mouse.MouseAction import MouseAction
+from pattern.state.State import State
+from pattern.state.StateMachine import StateMachine
+from pattern.state.mouse.MouseAction import MouseAction
 
 
 class Waiting(State):
@@ -63,12 +61,8 @@ MouseTrap.luring = Luring()
 MouseTrap.trapping = Trapping()
 MouseTrap.holding = Holding()
 
-moves = map(string.strip,
-            open("../mouse/MouseMoves.txt").readlines())
 
-print moves
-
-mouse_actions = map(MouseAction, moves)
-print mouse_actions
-
-MouseTrap().runAll(mouse_actions)
+with open("../mouse/MouseMoves.txt") as file:
+    moves = map(string.strip, file.readlines())
+    mouse_actions = map(MouseAction, moves)
+    MouseTrap().runAll(mouse_actions)
