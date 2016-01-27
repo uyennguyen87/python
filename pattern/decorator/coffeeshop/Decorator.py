@@ -1,4 +1,4 @@
-from pattern.decorator.alldecorators.coffeeshop.DrinkComponent import DrinkComponent
+from pattern.decorator.coffeeshop.DrinkComponent import DrinkComponent
 
 
 class Decorator(DrinkComponent):

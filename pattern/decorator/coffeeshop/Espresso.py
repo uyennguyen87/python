@@ -1,4 +1,4 @@
-from pattern.decorator.alldecorators.coffeeshop.Decorator import Decorator
+from pattern.decorator.coffeeshop.Decorator import Decorator
 
 
 class Espresso(Decorator):
