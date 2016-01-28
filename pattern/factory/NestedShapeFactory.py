@@ -10,7 +10,7 @@ class Shape(object):
     def draw(self): print 'not implemented yet'
     def erase(self): print 'not implemented yet'
 
-def factory(type):
+def factory(shape_type):
     class Circle(Shape):
         def draw(self): print 'Circle.draw'
         def erase(self): print 'Circle.erase'
@@ -19,12 +19,12 @@ def factory(type):
         def draw(self): print 'Square.draw'
         def erase(self): print 'Square.erase'
 
-    if  type == ShapeType.CIRCLE:
+    if  shape_type == ShapeType.CIRCLE:
         return Circle()
-    elif type == ShapeType.SQUARE:
+    elif shape_type == ShapeType.SQUARE:
         return Square()
     else:
-        assert 0, 'Bad shape creation' + type
+        assert 0, 'Bad shape creation' + shape_type
 
 
 def generateShapeName(n):
