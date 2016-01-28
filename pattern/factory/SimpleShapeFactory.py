@@ -11,13 +11,13 @@ class Shape(object):
     def erase(self): print 'not implemented yet'
 
     @staticmethod
-    def factory(type):
-        if  type == ShapeType.CIRCLE:
+    def factory(shape_type):
+        if  shape_type == ShapeType.CIRCLE:
             return Circle()
-        elif type == ShapeType.SQUARE:
+        elif shape_type == ShapeType.SQUARE:
             return Square()
         else:
-            assert 0, 'Bad shape creation' + type
+            assert 0, 'Bad shape creation' + shape_type
 
 class Circle(Shape):
     def draw(self): print 'Circle.draw'
