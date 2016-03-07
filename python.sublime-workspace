@@ -1,0 +1,494 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"my",
+				"myColor"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"myC",
+				"myColor"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"mouse",
+				"mousemove"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"move",
+				"moveFunc"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"bab",
+				"babelSource"
+			],
+			[
+				"ren",
+				"renderJSXLiveCompiler"
+			],
+			[
+				"render",
+				"renderJSXLiveCompiler"
+			],
+			[
+				"re",
+				"renderJSXLiveCompiler"
+			],
+			[
+				"s",
+				"sst	React: this.setState({ ... })"
+			],
+			[
+				"Com",
+				"ComposableComponent"
+			],
+			[
+				"Co",
+				"ComposableComponent"
+			],
+			[
+				"Rea",
+				"React"
+			],
+			[
+				"P",
+				"PropTypes"
+			],
+			[
+				"Mix",
+				"MixinComponent"
+			],
+			[
+				"L",
+				"label"
+			],
+			[
+				"red",
+				"renderRefs"
+			],
+			[
+				"Re",
+				"ReactDOM"
+			],
+			[
+				"react",
+				"ReactDOM"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"A",
+				"AppWithLifeCycle"
+			],
+			[
+				"r",
+				"render"
+			],
+			[
+				"R",
+				"ReactDOM"
+			],
+			[
+				"is",
+				"isUpdate"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"La",
+				"LabelMixed"
+			],
+			[
+				"Bu",
+				"ButtonMixed"
+			],
+			[
+				"p",
+				"props"
+			],
+			[
+				"componentW",
+				"componentWillMount"
+			],
+			[
+				"inc",
+				"increasing"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"up",
+				"updateSlider"
+			],
+			[
+				"update",
+				"updateTxt"
+			],
+			[
+				"sta",
+				"stateTxt"
+			],
+			[
+				"pro",
+				"props"
+			],
+			[
+				"React",
+				"ReactDOM"
+			],
+			[
+				"Porp",
+				"propTypes"
+			],
+			[
+				"Rae",
+				"ReactDOM"
+			],
+			[
+				"foo_",
+				"foo_c2_idx"
+			],
+			[
+				"EX",
+				"EXISTS"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 285.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"css Co",
+				"Format CSS: Compressed"
+			],
+			[
+				"Css",
+				"Format CSS: Compact"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 539.0
+	},
+	"console":
+	{
+		"height": 411.0,
+		"history":
+		[
+			"os.system('clear')",
+			"import os",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ncuyen/my_projects/python"
+	],
+	"file_history":
+	[
+		"/home/ncuyen/dev/geronimo-tomcat7-javaee6-web-3.0.1/repository/com/AxonActive/aa-business-cci-web/6.3.0-SNAPSHOT/aa-business-cci-web-6.3.0-SNAPSHOT.war/js/bu_setting/bu-setting.js",
+		"/home/ncuyen/Desktop/myCP/dhtmlxcolorpicker.min.css",
+		"/home/ncuyen/Desktop/myCP/dhtmlxcolorpicker.js",
+		"/home/ncuyen/Desktop/dhtmlxColorPicker_v46_std/codebase/dhtmlxcolorpicker.js",
+		"/home/ncuyen/Desktop/dhtmlxColorPicker_v46_std/sources/dhtmlxColorPicker/codebase/dhtmlxcolorpicker.js",
+		"/home/ncuyen/Desktop/myCP/index.html",
+		"/home/ncuyen/dev/geronimo-tomcat7-javaee6-web-3.0.1/bin/setjavaenv.sh",
+		"/opt/webapplication/conf/cview/cci.properties",
+		"/home/ncuyen/Desktop/dhtmlxColorPicker_v46_std/sources/dhtmlxCommon/codebase/dhtmlxcommon.js",
+		"/home/ncuyen/Desktop/myCP/index.hmtl",
+		"/home/ncuyen/my_projects/react_guide/src/index.js",
+		"/home/ncuyen/my_react_course/README.md",
+		"/home/ncuyen/my_react_course/main.js",
+		"/home/ncuyen/my_react_course/App.js",
+		"/home/ncuyen/my_react_course/npm-debug.log",
+		"/home/ncuyen/my_react_course/styles/app.scss",
+		"/home/ncuyen/my_react_course/index.html",
+		"/home/ncuyen/my_react_course/node_modules/serve-index/public/style.css",
+		"/home/ncuyen/my_react_course/components/DynamicallyGeneratedComponents.js",
+		"/home/ncuyen/my_react_course/components/ComposableComponent.js",
+		"/home/ncuyen/my_react_course/package.json",
+		"/home/ncuyen/my_react_course/components/LifeCycle.js",
+		"/home/ncuyen/my_react_course/components/ChildrentRender.js",
+		"/home/ncuyen/my_react_course/components/Refs.js",
+		"/home/ncuyen/my_react_course/components/MixinComponent.js",
+		"/home/ncuyen/my_react_course/App_bk.js",
+		"/home/ncuyen/my_react_course/webpack.config.js",
+		"/home/ncuyen/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/ncuyen/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ncuyen/Desktop/post_codes_germany.txt",
+		"/home/ncuyen/Documents/pg performance/improve.sql",
+		"/home/ncuyen/Documents/pg performance/practice5_undertand_explain.sql",
+		"/home/ncuyen/Documents/pg performance/Demo/demo1.sql",
+		"/home/ncuyen/Documents/pg performance/research-database-index.txt",
+		"/home/ncuyen/Documents/pg performance/support.sql",
+		"/home/ncuyen/Documents/pg performance/Take note",
+		"/home/ncuyen/Documents/pg performance/practice.sql",
+		"/media/ncuyen/DATA/backup/CVI Notices.txt",
+		"/home/ncuyen/Desktop/out.txt",
+		"/home/ncuyen/dev/apache-tomcat-7.0.67/conf/Catalina/localhost/camplink.xml",
+		"/home/ncuyen/Desktop/ai-security-4.4.2.src/com/axonactive/security/encryption/AESCrypter.java",
+		"/home/ncuyen/Desktop/ai-security-4.4.2.src/com/axonactive/security/encryption/DecryptAESString.java",
+		"/home/ncuyen/Desktop/ai-security-4.4.2.src/com/axonactive/security/encryption/Decrypter.java",
+		"/home/ncuyen/Desktop/ai-security-4.4.2.src/com/axonactive/insight/security/tomcat/EncryptedDataSourceFactory.java",
+		"/home/ncuyen/Desktop/ai-security-4.4.2.src/com/axonactive/insight/security/tomcat/SHAKey.java",
+		"/home/ncuyen/Desktop/ai-security-4.4.2.src/com/axonactive/security/encryption/DecryptionException.java",
+		"/home/ncuyen/Desktop/ai-security-4.4.2.src/com/axonactive/security/encryption/EncryptAESString.java",
+		"/home/ncuyen/Desktop/ai-security-4.4.2.src/com/axonactive/security/encryption/Encrypter.java",
+		"/home/ncuyen/Desktop/h2gis",
+		"/opt/localdata/cview/fakeclt/orders/ch_usr01.json",
+		"/opt/localdata/cview/fakeclt/orderlines/60572.json",
+		"/home/ncuyen/Downloads/h2/bin/h2.sh",
+		"/opt/localdata/cview/fakeclt/orderlines/60598.json",
+		"/opt/localdata/cview/fakeclt/orderlines/60598_pop.json",
+		"/home/ncuyen/cleancode-wordshop/calculator/pom.xml",
+		"/home/ncuyen/Desktop/mynote.txt",
+		"/home/ncuyen/.zshrc",
+		"/home/ncuyen/Desktop/tmp.fnc_tmp_create_camplink_translation.sql",
+		"/home/ncuyen/Desktop/fnc_create_camplink_translation.sql",
+		"/home/ncuyen/Desktop/Orderlines_Metadata _change.json",
+		"/home/ncuyen/Desktop/Orders_Metadata _change.json",
+		"/home/ncuyen/Desktop/Orderlines_Metadata.json",
+		"/home/ncuyen/Desktop/Orders_Metadata.json",
+		"/run/user/1000/gvfs/smb-share:server=server19,share=project/BEE12/UyenNguyen/15.25/fnc_create_table_tmp_camplink_translation.sql",
+		"/run/user/1000/gvfs/smb-share:server=server19,share=project/BEE12/UyenNguyen/15.25/insert_campaign_overview_attrs.sql",
+		"/home/ncuyen/dev/geronimo-tomcat7-javaee6-web-3.0.1/repository/com/AxonActive/aa-business-cci-web/6.2.0-SNAPSHOT/aa-business-cci-web-6.2.0-SNAPSHOT.war/js/characteristic/panelFilter.multipleSelect.left.js",
+		"/home/ncuyen/dev/geronimo-tomcat7-javaee6-web-3.0.1/repository/com/AxonActive/aa-business-cci-web/6.2.0-SNAPSHOT/aa-business-cci-web-6.2.0-SNAPSHOT.war/js/characteristic/panelFilter.multipleSelect.right.js",
+		"/home/ncuyen/Desktop/chracteristics_query.sql",
+		"/home/ncuyen/dev/geronimo-tomcat7-javaee6-web-3.0.1/repository/com/AxonActive/aa-business-cci-web/6.2.0-SNAPSHOT/aa-business-cci-web-6.2.0-SNAPSHOT.war/js/characteristic/panelFilter.component.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"td",
+			"imgs/dhxcp_skyblue/",
+			"spectrum",
+			"window",
+			"import React from 'react';\nimport ReactDOM from 'react-dom';",
+			"--> ",
+			"limit 100 offset 0",
+			"?"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"'pending'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 300.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "python.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"style.css",
+				"node_modules/serve-index/public/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
