@@ -1,11 +1,11 @@
 # python 3
 import socket
-import sys
 import argparse
 
 host = 'localhost'
 data_payload = 2048
 backlog = 5
+
 
 def echo_server(port):
     """ A simple echo server """
@@ -17,7 +17,8 @@ def echo_server(port):
     server_address = (host, port)
     print("Starting up echo server on %s port %s" % server_address)
     sock.bind(server_address)
-    # Listen to clients, backlog argument specifies the max no. of queue conections
+    # Listen to clients, backlog argument specifies the max no. of queue
+    # conections
     sock.listen(backlog)
     while True:
         print("Waiting to receive message from client")
@@ -29,10 +30,11 @@ def echo_server(port):
             print("sent %s bytes back to %s" % (data.decode("UTF-8"), address))
         # end connection
         client.close()
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Socket Sever Example')
-    parser.add_argument('--port', action='store', dest='port',\
-     type=int, required=True)
+    parser.add_argument('--port', action='store', dest='port',
+                        type=int, required=True)
     given_args = parser.parse_args()
     port = given_args.port
     echo_server(port)

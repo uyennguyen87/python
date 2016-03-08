@@ -1,9 +1,10 @@
 # python 3
 import socket
 
+
 def find_service_name():
     protocol_name = 'tcp'
-    for port in xrange(20,81):
+    for port in xrange(20, 81):
         try:
             service_name = socket.getservbyport(port, protocol_name)
         except socket.error as e:

@@ -1,6 +1,7 @@
 import ntplib
 from time import ctime
 
+
 def print_time():
     ntp_client = ntplib.NTPClient()
     response = ntp_client.request('pool.ntp.org')

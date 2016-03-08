@@ -1,6 +1,7 @@
 # python 3
 import socket
 
+
 def get_remote_machine_info(remote_host):
     try:
         print("IP address: %s" % socket.gethostbyname(remote_host))

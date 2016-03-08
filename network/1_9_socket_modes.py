@@ -1,6 +1,7 @@
 # python 3
 import socket
 
+
 def test_socket_modes():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.setblocking(1)
@@ -8,7 +9,7 @@ def test_socket_modes():
     s.bind(('127.0.0.1', 0))
 
     sock_address = s.getsockname()
-    print("Trival sever launch on socket: %s" %str(sock_address))
+    print("Trival sever launch on socket: %s" % str(sock_address))
     while(1):
         s.listen(1)
 
